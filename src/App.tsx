@@ -3,7 +3,6 @@ import { Visualizer } from './components/Visualizer';
 import { MetricsChart } from './components/MetricsChart';
 import { 
   Brain,
-  Github,
   Network,
   Zap,
   Settings,
@@ -49,15 +48,7 @@ function App() {
               <Brain className="w-8 h-8 text-indigo-500" />
               <h1 className="text-2xl font-bold">Neural Network Playground</h1>
             </div>
-            <a 
-              href="https://github.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-            >
-              <Github size={20} />
-              <span>View on GitHub</span>
-            </a>
+            
           </div>
         </div>
       </header>
